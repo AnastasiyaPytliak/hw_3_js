@@ -7,7 +7,7 @@ let orange = true
 
 let shouldGoToWork
 
-if (key && documents && pen && apple) {
+if (apple) {
     shouldGoToWork = "key, documents, pen, apple"
 } else  {
     shouldGoToWork = "key, documents, pen, orange"
