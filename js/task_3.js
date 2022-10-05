@@ -2,8 +2,18 @@
 
 // > Для вычисления кратности обратите внимание на оператор %
 
-for (let i = 1; i <= 20; i++) {
-    if (i % 3 == 0) {
-        console.log(i);
+// for (let i = 1; i <= 20; i++) {
+//     if (i % 3 == 0) {
+//         console.log(i);
+//     } 
+// }
+
+let item = 1
+
+while (item <=20) {
+    if (item % 3 == 0) {
+        console.log(item);
     } 
+    item++
 }
+

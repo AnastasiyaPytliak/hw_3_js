@@ -1,16 +1,16 @@
-let sideOfTheWorld = prompt('В какую сторону света вы бы хотели отправиться', "Юг")
+let sideOfTheWorld = prompt('В какую сторону света вы бы хотели отправиться', " ")
 
-switch (sideOfTheWorld) {
-    case "Юг":
+switch (sideOfTheWorld.toLowerCase()) {
+    case "юг":
         console.log ("На юг пойдешь счастье найдешь")
         break;
-    case "Север":
+    case "север":
         console.log ("На север пойдешь много денег найдешь")
         break;
-    case "Запад":
+    case "запад":
         console.log ("На запад пойдешь верного друга найдешь")
         break;
-    case "Восток":
+    case "восток":
         console.log ("На восток пойдешь разработчиком станешь")
         break;
     default:
